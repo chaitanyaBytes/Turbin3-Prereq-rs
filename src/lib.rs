@@ -152,7 +152,7 @@ mod tests {
 
         // create the PDA
         let prereq = TurbinePrereqProgram::derive_program_address(&[
-            b"preQ225",
+            b"prereq",
             signer.pubkey().to_bytes().as_ref(),
         ]);
 
